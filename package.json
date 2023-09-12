@@ -1,0 +1,18 @@
+{
+  "name": "iptv-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "m3u": "node scripts/m3u.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "m3u-parser-generator": "github:truongnq9999/m3u-parser-generator#feat/support-unknown-directive",
+    "sync-request": "^6.1.0"
+  }
+}
