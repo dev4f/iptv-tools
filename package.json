@@ -12,7 +12,9 @@
   "type": "module",
   "dependencies": {
     "commander": "^11.0.0",
+    "epg-grabber": "github:truongnq9999/epg-grabber#feat/timezone-support",
     "m3u-parser-generator": "github:truongnq9999/m3u-parser-generator#feat/support-unknown-directive",
+    "npx": "^10.2.2",
     "sync-request": "^6.1.0"
   }
 }
