@@ -40,6 +40,7 @@ function getIdForName(channelName) {
             return id;
         }      
     }
+    console.log(`Channel for ${channelName} id not found.`)
     return ""
 }
 
